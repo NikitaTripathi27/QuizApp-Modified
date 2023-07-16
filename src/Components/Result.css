@@ -1,0 +1,33 @@
+.res{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 110, 24);
+    color:white;
+    height:70vh;
+    width:50vw;
+    margin-left: 8%;
+    border-radius: 3rem;
+    
+}
+
+.container{
+    background-color: black;
+}
+
+.btn-result{
+    background-color: yellow;
+    margin-top:5% !important;
+    margin-left: 5%;
+    height:4rem;
+    width: 10rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.total-ques{
+    font-size: larger;
+    padding:1rem;
+}

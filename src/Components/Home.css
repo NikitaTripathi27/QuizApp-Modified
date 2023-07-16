@@ -1,0 +1,98 @@
+
+.background{
+    background-color: black;
+    height:110vh;
+    width:100vw;
+ 
+}
+
+.Home-container{
+    color: rgb(236, 197, 40);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: -5%;
+   text-decoration: underline;
+    
+}
+
+.txtfield{
+    color:white;
+    margin-top: -10%;
+    margin-left: 30%;
+    font-size: medium;
+    border: 2px solid white;
+    padding: 2rem 5rem;
+    margin-right: 20%; 
+   
+}
+
+.form{
+    height:5rem;
+    width: 20rem;
+    padding-bottom: 5rem;
+    margin-left: 40%;
+}
+
+.input-box{
+    margin-left: 42%;
+    height: 2rem;
+    width:20rem;
+}
+
+.btn{
+   margin-top: -10% ;
+   margin-left: 60% !important;
+   margin-bottom: 20%;
+   height: 4rem !important;
+    width: 11rem;
+    border-radius: 3rem !important ;
+   cursor: pointer;
+  
+}
+
+.li-txt{
+    padding:1rem;
+}
+
+@media screen and (max-width: 708px) {
+    .background{
+       height:153vh;
+    }    
+    .txtfield{
+        margin-top: -20%;
+        height:46vh;
+    }
+    .Home-container{
+        min-width: 30vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .background {
+        height:90vh;
+    }  
+    
+}
+
+@media screen and (max-width: 653px){
+    .background{
+       height:170vh;
+    }    
+    .txtfield{
+        margin-top: -30%;
+        height:74vh;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .Home-container{
+        min-width: 30vh;
+    }
+    .btn{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}

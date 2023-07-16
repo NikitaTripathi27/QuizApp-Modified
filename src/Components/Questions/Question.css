@@ -1,0 +1,17 @@
+.ques-text{
+    color:white;
+    margin-top: 3rem;
+    font-size: larger;
+    padding-left: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.li-container{
+    margin-right: 20%;
+    margin-top: 5%;
+}
